@@ -1,0 +1,62 @@
+/* Global Styles */
+body {
+    background-color: #b0a8d0; /* Soft purple background */
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Card Styling */
+.card {
+    background: white;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+/* Badge */
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #fce77d;
+    color: black;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left:-25px;
+}
+
+/* Product Image */
+.product-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Card Content */
+.card-content {
+    padding: 20px;
+}
+
+.card-content h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.series {
+    font-size: 14px;
+    color: gray;
+    font-weight: lighter;
+}
+
+/* Description Text */
+.card-content p {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+}
